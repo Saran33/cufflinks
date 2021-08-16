@@ -7,7 +7,7 @@ with io.open(path.join(here, 'requirements.txt'), encoding='utf-8') as f:
     requires = f.read().split()
 
 setup(
-    name='cufflinks',
+    name='cufflynx',
     version='0.17.4',
     description='Productivity Tools for Plotly + Pandas',
     author='Jorge Santos',
